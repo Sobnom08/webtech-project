@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .image-container {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 300px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .image-description {
+            margin-top: 10px;
+        }
+
+        .back-button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Picture Gallery</h1>
+
+    <!-- Gallery with images and descriptions -->
+    <div class="gallery">
+        <div class="image-container">
+            <img src="1.jpg" alt="Image 1">
+            <div class="image-description">
+                Description for Image 1.
+            </div>
+        </div>
+
+
+        <button class="back-button" onclick="goBack()">Back</button>
+
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+</body>
+
+</html>

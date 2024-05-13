@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trip Details</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .trip {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .trip h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .trip ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .trip li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .trip li:last-child {
+    border-bottom: none;
+  }
+  
+  .trip .bus {
+    color: #007bff;
+  }
+  
+  .trip .car {
+    color: #28a745;
+  }
+
+  .proceed-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .proceed-button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Trip Details</h1>
+  
+  <div class="trip">
+    <h2>Dhaka to Khulna</h2>
+    <ul>
+      <li><strong>By Bus:</strong> $20</li>
+      <li><strong>By Car:</strong> $100</li>
+    </ul>
+  </div>
+  
+  <div class="trip">
+    <h2>Dhaka to Chittagong</h2>
+    <ul>
+      <li><strong>By Bus:</strong> $15</li>
+      <li><strong>By Car:</strong> $80</li>
+    </ul>
+  </div>
+  
+  <div class="trip">
+    <h2>Dhaka to Sylhet</h2>
+    <ul>
+      <li><strong>By Bus:</strong> $18</li>
+      <li><strong>By Car:</strong> $90</li>
+    </ul>
+  </div>
+
+  <!-- Add more trip details here -->
+  <div class="trip">
+    <h2>Dhaka to Rajshahi</h2>
+    <ul>
+      <li><strong>By Bus:</strong> $25</li>
+      <li><strong>By Car:</strong> $120</li>
+    </ul>
+  </div>
+
+  <div class="trip">
+    <h2>Dhaka to Barisal</h2>
+    <ul>
+      <li><strong>By Bus:</strong> $22</li>
+      <li><strong>By Car:</strong> $110</li>
+    </ul>
+  </div>
+
+  <!-- Proceed to booking button -->
+  <a href="booking.php" class="proceed-button">Proceed to Booking</a>
+</div>
+</body>
+</html>
